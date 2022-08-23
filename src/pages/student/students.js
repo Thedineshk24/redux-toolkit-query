@@ -34,7 +34,7 @@ const Students = () => {
               hoverable={true}
               bordered={false}
               cover={
-                <img alt="example" src={`https://i.pravatar.cc/${item.id}`} />
+                <img alt="example" src={`https://i.pravatar.cc/1920?img=${item.id}`} />
               }
               actions={[
                 <EyeOutlined
