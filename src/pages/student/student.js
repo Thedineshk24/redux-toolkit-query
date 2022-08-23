@@ -26,10 +26,9 @@ const Student = ({ match }) => {
   return (
     <div>
       <Card title="View Student Detials">
-            return (
               <Row gutter={[0, 20]}>
                 <Col span={8}>
-                  <Image width={200} src={`https://i.pravatar.cc/${data.id}`} />
+                  <Image width={200} src={`https://i.pravatar.cc/1920?img=${data.id}`} />
                 </Col>
                 <Col span={16}>
                   <Descriptions title="Subroto Biswas " layout="vertical">
@@ -45,7 +44,6 @@ const Student = ({ match }) => {
                   </Descriptions>
                 </Col>
               </Row>
-            );
       </Card>
     </div>
   );
